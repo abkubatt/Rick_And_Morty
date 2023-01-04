@@ -14,6 +14,7 @@
 		A0005EED2962C732004ADD4B /* RMCharacterGender.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0005EEC2962C732004ADD4B /* RMCharacterGender.swift */; };
 		A0005EEF2962C7FB004ADD4B /* RMSingleLocaton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0005EEE2962C7FB004ADD4B /* RMSingleLocaton.swift */; };
 		A0005EF12962C847004ADD4B /* RMOrigin.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0005EF02962C847004ADD4B /* RMOrigin.swift */; };
+		A02CBE4C29657CDC0044D581 /* RMGetAllCharactersResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = A02CBE4B29657CDC0044D581 /* RMGetAllCharactersResponse.swift */; };
 		A03230DD295F2A4600EEC654 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03230DC295F2A4600EEC654 /* AppDelegate.swift */; };
 		A03230DF295F2A4600EEC654 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03230DE295F2A4600EEC654 /* SceneDelegate.swift */; };
 		A03230E1295F2A4600EEC654 /* RMTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A03230E0295F2A4600EEC654 /* RMTabBarViewController.swift */; };
@@ -36,6 +37,7 @@
 		A0005EEC2962C732004ADD4B /* RMCharacterGender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMCharacterGender.swift; sourceTree = "<group>"; };
 		A0005EEE2962C7FB004ADD4B /* RMSingleLocaton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMSingleLocaton.swift; sourceTree = "<group>"; };
 		A0005EF02962C847004ADD4B /* RMOrigin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMOrigin.swift; sourceTree = "<group>"; };
+		A02CBE4B29657CDC0044D581 /* RMGetAllCharactersResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RMGetAllCharactersResponse.swift; sourceTree = "<group>"; };
 		A03230D9295F2A4600EEC654 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RickAndMorty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A03230DC295F2A4600EEC654 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A03230DE295F2A4600EEC654 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -63,6 +65,28 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A02CBE4929657CA00044D581 /* DataTypes */ = {
+			isa = PBXGroup;
+			children = (
+				A03230F7295F371300EEC654 /* RMLocation.swift */,
+				A03230F9295F372700EEC654 /* RMCharacter.swift */,
+				A03230FB295F374300EEC654 /* RMEpisode.swift */,
+				A0005EEA2962C5E6004ADD4B /* RMCharacterStatus.swift */,
+				A0005EEC2962C732004ADD4B /* RMCharacterGender.swift */,
+				A0005EEE2962C7FB004ADD4B /* RMSingleLocaton.swift */,
+				A0005EF02962C847004ADD4B /* RMOrigin.swift */,
+			);
+			path = DataTypes;
+			sourceTree = "<group>";
+		};
+		A02CBE4A29657CAF0044D581 /* APIResponseTypes */ = {
+			isa = PBXGroup;
+			children = (
+				A02CBE4B29657CDC0044D581 /* RMGetAllCharactersResponse.swift */,
+			);
+			path = APIResponseTypes;
+			sourceTree = "<group>";
+		};
 		A03230D0295F2A4600EEC654 = {
 			isa = PBXGroup;
 			children = (
@@ -105,13 +129,8 @@
 		A03230F1295F34CF00EEC654 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				A03230F7295F371300EEC654 /* RMLocation.swift */,
-				A03230F9295F372700EEC654 /* RMCharacter.swift */,
-				A03230FB295F374300EEC654 /* RMEpisode.swift */,
-				A0005EEA2962C5E6004ADD4B /* RMCharacterStatus.swift */,
-				A0005EEC2962C732004ADD4B /* RMCharacterGender.swift */,
-				A0005EEE2962C7FB004ADD4B /* RMSingleLocaton.swift */,
-				A0005EF02962C847004ADD4B /* RMOrigin.swift */,
+				A02CBE4A29657CAF0044D581 /* APIResponseTypes */,
+				A02CBE4929657CA00044D581 /* DataTypes */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -242,6 +261,7 @@
 			files = (
 				A0005EEB2962C5E6004ADD4B /* RMCharacterStatus.swift in Sources */,
 				A0005EEF2962C7FB004ADD4B /* RMSingleLocaton.swift in Sources */,
+				A02CBE4C29657CDC0044D581 /* RMGetAllCharactersResponse.swift in Sources */,
 				A0323103295F381E00EEC654 /* RMLocationViewController.swift in Sources */,
 				A03230FC295F374300EEC654 /* RMEpisode.swift in Sources */,
 				A0323101295F37B800EEC654 /* RMCharacterViewController.swift in Sources */,
